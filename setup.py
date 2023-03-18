@@ -8,13 +8,15 @@ requires = ["Sphinx>=0.6", "setuptools"]
 
 
 setup(
-    name="scrolldepthextension",
+    name="sphinxcontrib-scrolldepth",
     version="1.0",
     description="Sphinx scroll-depth extension",
     author="Simon Bodvarsson",
     author_email="simonb92@gmail.com",
+    maintainer="Benedikt Magnusson",
+    maintainre_email="bsm@hi.is",
     packages=find_packages(),
     include_package_data=True,
     install_requires=requires,
-    namespace_packages=["scrolldepth"],
+    namespace_packages=["sphinxcontrib"],
 )
